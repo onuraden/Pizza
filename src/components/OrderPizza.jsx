@@ -1,8 +1,17 @@
 import React from 'react'
+import OrderPizzaHeader from './OrderPizzaHeader'
+import OrderPizzaInfo from './OrderPizzaInfo'
+import OrderPizzaForm from './OrderPizzaForm'
 
 function OrderPizza() {
   return (
-    <div>OrderPizza</div>
+    <>
+        <OrderPizzaHeader />
+        <OrderPizzaInfo />
+        <OrderPizzaForm />
+        
+    </>
+    
   )
 }
 
